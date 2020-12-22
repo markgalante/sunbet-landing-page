@@ -1,0 +1,226 @@
+footer {
+    padding         : 5px 0;
+    background-color: #010615;
+    text-transform  : uppercase;
+    text-align      : center;
+    text-align-last : center;
+    color           : #383c43;
+    font-family     : Arial, Helvetica, sans-serif;
+}
+
+.terms-conditions {
+    width    : 95%;
+    margin   : auto;
+    font-size: 15px;
+}
+
+.links a {
+    color         : #383c43;
+    font-size     : 18px;
+    text-transform: capitalize;
+    font-weight   : bold;
+}
+
+.sunbet-links {
+    margin: 30px auto;
+}
+
+.sunbet-links a {
+    font-size  : 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color      : #383c43;
+}
+
+.capitalized {
+    text-transform: capitalize;
+}
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .terms-conditions {
+        font-size: 12px;
+    }
+
+    .links a {
+        font-size: 12px;
+    }
+
+    .sunbet-links a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .terms-conditions {
+        font-size: 12px;
+    }
+
+    .links{
+        width: 70%;
+        margin: auto;
+    }
+
+    .links a {
+        font-size: 12px;
+    }
+
+    .sunbet-links a {
+        font-size: 10px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .terms-conditions {
+        font-size: 10px;
+        line-height: 1.5em;
+    }
+
+    .contact-details{
+        display: block;
+    }
+
+    .links{
+        width: 80%;
+        margin: auto;
+    }
+
+    .links a {
+        font-size: 10px;
+    }
+
+    .sunbet-links a {
+        font-size: 10px;
+        margin: 20px auto;
+    }
+
+    .sunbet-links{
+        margin: 15px auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .terms-conditions {
+        font-size: 10px;
+        line-height: 1.5em;
+    }
+
+    .contact-details{
+        display: block;
+    }
+
+    .links{
+        width: 87%;
+        margin: auto;
+    }
+
+    .links a {
+        font-size: 10px;
+    }
+
+    .sunbet-links a {
+        font-size: 10px;
+        margin: 20px auto;
+    }
+
+    .sunbet-links{
+        margin: 15px auto;
+    }
+
+    .help-link{
+        display: block;
+    }
+}
+
+
+
+/* @media only screen and (min-width: 1024px) and (max-width: 1024.1px) {
+    .terms-conditions {
+        width    : 93%;
+        font-size: 21.95px;
+    }
+
+    .links a {
+        font-size: 22.5px;
+    }
+
+    .sunbet-links a {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023.5px) {
+    .terms-conditions {
+        width    : 95%;
+        font-size: 27.75px;
+    }
+
+    .links {
+        width : 71%;
+        margin: auto;
+    }
+
+    .links a {
+        font-size: 27px;
+    }
+
+    .sunbet-links a {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767.5px) {
+    .terms-conditions {
+        width    : 90%;
+        font-size: 39.2px;
+        line-height: 1.7em;
+    }
+
+    .links {
+        width : 90%;
+        margin: auto;
+    }
+
+    .links a {
+        font-size: 36px;
+    }
+
+    .sunbet-links a {
+        font-size: 36px;
+    }
+
+    .contact-details{
+        display: block
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479.1px) {
+    .terms-conditions {
+        width    : 90%;
+        font-size: 39.2px;
+        line-height: 1.7em;
+    }
+
+    .links {
+        width : 90%;
+        margin: auto;
+    }
+
+    .links a {
+        font-size: 38px;
+    }
+
+    .sunbet-links a {
+        font-size: 40px;
+    }
+
+    .contact-details{
+        display: block
+    }
+
+    .help-link{
+        display: block;
+    }
+} */

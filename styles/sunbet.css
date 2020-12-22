@@ -1,0 +1,768 @@
+@font-face {
+    font-family: MuseoSans300;
+    src        : url("../fonts/Museo300-Regular.otf");
+}
+
+@font-face {
+    font-family: MuseoSans500;
+    src        : url("../fonts/MuseoSans_500.otf");
+}
+
+@font-face {
+    font-family: MuseoSans700;
+    src        : url("../fonts/MuseoSans_700.otf");
+}
+
+@font-face {
+    font-family: MuseoSans900;
+    src        : url("../fonts/MuseoSans_900.otf");
+}
+
+body {
+    background-color: rgb(2, 10, 35);
+    color           : #ffffff;
+    width           : 1905px;
+    margin          : 0;
+}
+
+.betting-info {
+    background: #003466;
+    height    : 135px;
+    display   : flex;
+    text-align: center;
+    width     : 100%;
+}
+
+.info-steps {
+    width          : 85%;
+    margin         : auto;
+    display        : flex;
+    justify-content: space-evenly;
+}
+
+.steps>h2 {
+    color         : #a39163;
+    text-transform: uppercase;
+    font-family   : MuseoSans900;
+    font-size     : 30px;
+    margin-top    : 0;
+    margin-bottom : 10px;
+}
+
+.steps>p {
+    color      : #ffffff;
+    font-family: MuseoSans300;
+    font-size  : 18px;
+    text-align : center;
+    margin     : 0;
+}
+
+.steps-span {
+    color: #ffffff;
+}
+
+.hr {
+    height       : 20px;
+    width        : 1170px;
+    border-bottom: 2px solid #a39163;
+    line-height  : 33.06pt;
+    text-align   : center;
+    margin       : 92px auto;
+    position     : relative;
+}
+
+
+.hr span {
+    padding         : 0 10px;
+    font-family     : MuseoSans900;
+    font-size       : 47.94px;
+    margin          : 0;
+    padding         : 0 20px;
+    text-transform  : uppercase;
+    background-color: rgb(2, 10, 35);
+}
+
+.other-features {
+    display      : flex;
+    width        : 1520px;
+    margin       : 0 auto;
+    margin-bottom: 50px;
+    overflow     : hidden;
+    position     : relative;
+}
+
+.features-section {
+    border  : 2px solid #064c8f;
+    height  : 363px;
+    width   : 470px;
+    margin  : 0 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.man-on-phone {
+    background-image: url("../images/standard/man-standard.png");
+}
+
+.footballers {
+    background-image: url("../images/standard/footballers-standard.png");
+}
+
+.dealer {
+    background-image: url("../images/standard/dealer-standard.png");
+}
+
+.feature-image {
+    height: 363px;
+    width : 470px;
+}
+
+.text-box {
+    background: #003466;
+    width     : 100%;
+    position  : absolute;
+    bottom    : 0;
+    height    : 130px;
+    text-align: center;
+}
+
+.text-box p {
+    text-transform: uppercase;
+    font-family   : MuseoSans500;
+    font-size     : 18px;
+    margin-bottom : 0;
+}
+
+.text-box h2 {
+    font-family   : MuseoSans900;
+    text-transform: uppercase;
+    font-size     : 35px;
+    color         : #a39163;
+    margin-top    : 0;
+}
+
+.object-svg {
+    position: relative;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        width: 1024px;
+    }
+
+    .info-steps {
+        width          : 95%;
+        justify-content: space-between;
+    }
+
+    .betting-info {
+        height: 135px;
+    }
+
+    .steps {
+        width: 295px;
+    }
+
+    .steps>h2 {
+        font-size    : 30px;
+        margin-bottom: 9px;
+    }
+
+    .steps>p {
+        font-size: 18px;
+    }
+
+    .hr {
+        width       : 86%;
+        border-width: 3px;
+        margin      : 7% auto;
+    }
+
+    .hr span {
+        font-size: 42px;
+    }
+
+    .other-features {
+        display        : flex;
+        justify-content: space-evenly;
+        width          : 100%;
+    }
+
+    .feature-image {
+        height: 337px;
+        width : 322px;
+    }
+
+    .features-section {
+        height: 337px;
+        width : 322px;
+        margin: unset;
+    }
+
+    .man-on-phone {
+        background-image: url("../images/tablet-landscape/man-tablet-landscape.png");
+    }
+
+    .footballers {
+        background-image: url("../images/tablet-landscape/footballers-tablet-landscape.png");
+    }
+
+    .dealer {
+        background-image: url("../images/tablet-landscape/dealer-tablet-landscape.png");
+    }
+
+    .middle-features-section {
+        margin: 0 7px;
+    }
+
+    .text-box {
+        height: 100px;
+    }
+
+    .text-box p {
+        font-size    : 18px;
+        padding-top  : 0;
+        margin-bottom: 10px;
+    }
+
+    .object-svg {
+        height: 30px;
+    }
+
+    .text-box h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        width: 768px;
+    }
+
+    .info-steps {
+        display        : flex;
+        justify-content: space-between;
+    }
+
+    .betting-info {
+        height: 135px;
+    }
+
+    .steps>h2 {
+        font-size    : 22px;
+        margin-bottom: 9px;
+    }
+
+    .steps>p {
+        font-size: 18px;
+    }
+
+    .hr {
+        width       : 725px;
+        border-width: 3px;
+        margin      : 7% auto;
+    }
+
+    .hr span {
+        font-size: 38px;
+    }
+
+    .other-features {
+        display        : flex;
+        justify-content: space-evenly;
+        width          : 100%;
+    }
+
+    .man-on-phone {
+        background-image: url("../images/tablet-portrait/man-tablet-portrait.png");
+        height          : 322px;
+        width           : 238px;
+    }
+
+    .feature-image {
+        height: 322px;
+        width : 238px;
+    }
+
+    .man-on-phone {
+        background-image: url("../images/tablet-portrait/man-tablet-portrait.png");
+    }
+
+    .footballers {
+        background-image: url("../images/tablet-portrait/footballers-tablet-portrait.png");
+    }
+
+    .dealer {
+        background-image: url("../images/tablet-portrait/dealer-tablet-portrait.png");
+    }
+
+    .features-section {
+        height: 322px;
+        width : 238px;
+        margin: unset;
+    }
+
+    .middle-features-section {
+        margin: 0 10px;
+    }
+
+    .text-box {
+        height: 84px;
+    }
+
+    .text-box p {
+        font-size    : 18px;
+        padding-top  : 0;
+        margin-bottom: 10px;
+    }
+
+    .object-svg {
+        height: 22px;
+    }
+
+    .text-box h2 {
+        font-size: 22px;
+    }
+
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    body {
+        width: 480px;
+    }
+
+    .info-steps {
+        display       : flex;
+        flex-direction: column;
+    }
+
+    .steps {
+        width : 95%;
+        margin: 15px auto;
+    }
+
+    .betting-info {
+        height: 260px;
+    }
+
+    .steps>h2 {
+        font-size    : 22px;
+        margin-bottom: 0;
+    }
+
+    .steps>p {
+        font-size: 18px;
+    }
+
+    .hr {
+        width       : 95%;
+        border-width: 3px;
+        margin      : 7% auto;
+    }
+
+    .hr span {
+        font-size: 26.19px;
+    }
+
+    .other-features {
+        display        : flex;
+        flex-direction : column;
+        justify-content: space-evenly;
+        width          : 100%;
+        margin-bottom  : 15px;
+    }
+
+    .man-on-phone {
+        background-image: url("../images/tablet-portrait/man-tablet-portrait.png");
+        height          : 322px;
+        width           : 238px;
+    }
+
+    .feature-image {
+        height: 318px;
+        width : 456px;
+    }
+
+    .man-on-phone {
+        background-image: url("../images/mobile-landscape/man-mobile-landscape.png");
+    }
+
+    .footballers {
+        background-image: url("../images/mobile-landscape/footballers-mobile-landscape.png");
+    }
+
+    .dealer {
+        background-image: url("../images/mobile-landscape/dealer-mobile-landscape.png");
+    }
+
+    .features-section {
+        height: 318px;
+        width : 456px;
+        margin: 15px auto;
+    }
+
+    .text-box {
+        height: 84px;
+    }
+
+    .text-box p {
+        font-size    : 18px;
+        padding-top  : 0;
+        margin-bottom: 10px;
+    }
+
+    .object-svg {
+        height: 22px;
+    }
+
+    .text-box h2 {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    body {
+        width: 320px;
+    }
+
+    .info-steps {
+        display       : flex;
+        flex-direction: column;
+    }
+
+    .steps {
+        width : 75%;
+        margin: 15px auto;
+    }
+
+    .betting-info {
+        height: 405px;
+    }
+
+    .steps>h2 {
+        font-size    : 22px;
+        margin-bottom: 5px;
+    }
+
+    .steps>p {
+        font-size: 18px;
+    }
+
+    .hr {
+        width       : 93.75%;
+        border-width: 3px;
+        margin      : 7% auto;
+    }
+
+    .hr span {
+        font-size: 19.74px;
+        padding: 0 10px;
+    }
+
+    .other-features {
+        display        : flex;
+        flex-direction : column;
+        justify-content: space-evenly;
+        width          : 100%;
+        margin-bottom  : 15px;
+    }
+
+    .man-on-phone {
+        background-image: url("../images/mobile-portrait/man-mobile-portrait.png");
+    }
+
+    .footballers{
+        background-image:url("../images/mobile-portrait/footballers-mobile-portrait.png");
+    }
+
+    .dealer{
+        background-image: url("../images/mobile-portrait/dealer-mobile-portrait.png");
+    }
+
+    .feature-image {
+        height: 317px;
+        width : 240px;
+    }
+
+    .features-section {
+        height: 317px;
+        width : 240px;
+        margin: 15px auto;
+    }
+
+    .text-box {
+        height: 84px;
+    }
+
+    .text-box p {
+        font-size    : 18px;
+        padding-top  : 0;
+        margin-bottom: 10px;
+    }
+
+    .object-svg {
+        height: 22px;
+    }
+
+    .text-box h2 {
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+/* @media (max-width: 1024px) and (max-width: 1024.1px) {
+    .info-steps {
+        width          : 95%;
+        justify-content: space-between;
+    }
+
+    .betting-info {
+        height: 15%;
+        display: flex;
+    }
+
+    .steps {
+        width: 450px;
+    }
+
+    .steps>h2 {
+        font-size: 45px;
+    }
+
+    .steps>p {
+        font-size: 27px;
+    }
+
+    .hr {
+        width       : 80%;
+        border-width: 3px;
+        margin      : 7% auto;
+    }
+
+    .hr span {
+        font-size: 80px;
+    }
+
+    .other-features {
+        display        : flex;
+        justify-content: space-evenly;
+        width          : 100%;
+    }
+
+    .features-section {
+        height: 440px;
+        width : 550px;
+    }
+
+    .text-box {
+        height: 175px;
+    }
+
+    .text-box p {
+        font-size  : 25px;
+        padding-top: 0;
+    }
+
+    .text-box h2 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023.5px) {
+
+
+    .betting-info {
+        height     : 300px;
+        display    : flex;
+        align-items: center;
+    }
+
+    .info-steps {
+        width          : 95%;
+        justify-content: space-between;
+    }
+
+    .steps {
+        width: 31%;
+    }
+
+    .steps>h2 {
+        font-size: 50px;
+    }
+
+    .steps>p {
+        font-size: 46.5px;
+    }
+
+    .hr {
+        margin    : 150px auto;
+        text-align: center;
+        width     : 90%
+    }
+
+    .other-features {
+        height: 470px;
+    }
+
+    .features-section {
+        height: 470px;
+        width : 570px;
+    }
+
+    .text-box p {
+        font-size  : 40px;
+        padding-top: 0;
+    }
+
+}
+
+
+@media (min-width: 480px) and (max-width: 767.5px) {
+    .betting-info {
+        height     : unset;
+        display    : flex;
+        align-items: center;
+    }
+
+    .info-steps {
+        width         : 100%;
+        text-align    : center;
+        display       : flex;
+        flex-direction: column;
+        margin        : 30px;
+    }
+
+    .steps {
+        margin: 30px auto;
+        width : 100%;
+    }
+
+    .steps p {
+        font-size: 65px;
+    }
+
+    .hr {
+        width : 90%;
+        margin: 10% auto;
+    }
+
+    .steps h2 {
+        font-size: 75px;
+    }
+
+    .hr span {
+        font-size: 110px;
+    }
+
+    .other-features {
+        height        : unset;
+        flex-direction: column;
+    }
+
+    .features-section {
+        height: 1060px;
+        width : 90%;
+        margin: 40px auto;
+    }
+
+    .text-box {
+        height: 280px;
+    }
+
+    .text-box p {
+        font-size: 70px;
+        margin   : 20px 0;
+    }
+
+    .text-box h2 {
+        font-size: 85px;
+    }
+
+    .object-svg {
+        height: 85px
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479.1px) {
+
+
+    .betting-info {
+        height     : unset;
+        display    : flex;
+        align-items: center;
+    }
+
+    .info-steps {
+        width         : 100%;
+        text-align    : center;
+        display       : flex;
+        flex-direction: column;
+        margin        : 30px;
+    }
+
+    .steps {
+        margin: 60px auto;
+        width : 80%;
+    }
+
+    .steps p {
+        font-size: 77px;
+    }
+
+    .hr {
+        width : 95%;
+        margin: 14% auto;
+    }
+
+    .steps h2 {
+        font-size: 75px;
+    }
+
+    .hr span {
+        font-size: 80px;
+    }
+
+    .other-features {
+        height        : unset;
+        flex-direction: column;
+    }
+
+    .features-section {
+        height  : 1022px;
+        width   : 70%;
+        margin  : 40px auto;
+        position: relative;
+    }
+
+    .feature-image {
+        transform: scale(1.7);
+        position : absolute;
+        top      : 24%;
+    }
+
+    .text-box {
+        height: 280px;
+    }
+
+    .text-box p {
+        font-size: 70px;
+        margin   : 20px 0;
+    }
+
+    .text-box h2 {
+        font-size: 85px;
+    }
+
+    .object-svg {
+        height: 85px
+    }
+} */

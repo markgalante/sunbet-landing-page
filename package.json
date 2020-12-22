@@ -1,0 +1,11 @@
+{
+  "name": "sunbet-lucky-numbers",
+  "version": "1.0.0",
+  "description": "Landing page developed for a front-end development interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Galante",
+  "license": "ISC"
+}

@@ -1,0 +1,706 @@
+@font-face {
+    font-family: MuseoSans900;
+    src        : url("../fonts/MuseoSans_900.otf");
+}
+
+.landing {
+    position: relative;
+}
+
+.header {
+    height     : 720px;
+    padding-top: 10px;
+    position   : relative;
+}
+
+.main-image-container {
+    position: absolute;
+    z-index : -2;
+    overflow: hidden;
+}
+
+.main-text-container {
+    position  : absolute;
+    z-index   : 1;
+    bottom    : 85px;
+    width     : 1905px;
+    margin    : 0 auto;
+    text-align: center;
+}
+
+.main-text-container h2 {
+    font-family   : MuseoSans900;
+    font-size     : 82.93px;
+    text-transform: uppercase;
+    margin        : 0;
+}
+
+.main-text-container img {
+    text-align: center;
+}
+
+.main-text-container p {
+    font-family   : MuseoSans500;
+    font-size     : 44.97px;
+    text-transform: uppercase;
+    margin        : 0;
+}
+
+.main-text-container .register-button {
+    margin-top: 34px;
+}
+
+.top-nav {
+    display    : flex;
+    align-items: center;
+    width      : 1880px;
+    margin     : 0 auto;
+    position   : relative;
+}
+
+.top-nav-item {
+    margin: 0 auto;
+}
+
+.sunbet-logo {
+    position: relative;
+    top     : 5px;
+}
+
+.navbar {
+    vertical-align: middle;
+}
+
+
+.nav-list {
+    list-style-type: none;
+    padding        : 0;
+    margin         : 0;
+    display        : flex;
+}
+
+.nav-item {
+    font-family   : MuseoSans900;
+    text-transform: uppercase;
+    margin        : 0 40px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color          : #ffffff;
+    font-family    : MuseoSans900;
+    font-size      : 21.43px;
+}
+
+.register-button a {
+    background-color: #ffc523;
+    padding         : 11px 24px;
+    text-decoration : none;
+    text-transform  : uppercase;
+    border-radius   : 10px;
+    color           : #ffffff;
+    font-family     : MuseoSans700;
+    outline         : none;
+    font-size       : 18px;
+}
+
+.register-button .main-register {
+    font-size    : 31.16px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        height: 721px;
+    }
+
+    .sunbet-logo {
+        position: relative;
+    }
+
+    .main-image-container {
+        height: 100%;
+
+    }
+
+    .main-image-container img {
+        transform: scale(1.87);
+        top      : 180px;
+        position : relative;
+        width    : 1024px;
+    }
+
+    .main-text-container {
+        bottom     : 10%;
+        line-height: 1;
+        width      : 1024px;
+    }
+
+    .main-text-container h2 {
+        font-size: 83.92px;
+    }
+
+    .main-text-container p {
+        font-size: 44.97px;
+    }
+
+    .main-text-container img {
+        height: 60px;
+        margin: 10px;
+    }
+
+    .top-nav {
+        width: 100%;
+    }
+
+    .nav-item a {
+        font-size: 18px;
+        position : relative;
+    }
+
+    .register-button {
+        margin-right: 65px;
+    }
+
+    .main-register {
+        padding: 10px 40px;
+    }
+
+    .register-button .main-register {
+        font-size    : 30px;
+        border-radius: 10px;
+    }
+
+    .register-button a {
+        font-size: 18px;
+        position : relative;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .header {
+        height: 672px;
+    }
+
+    .sunbet-logo {
+        position: relative;
+        width   : 156px;
+    }
+
+    .main-image-container {
+        height: 100%;
+
+    }
+
+    .main-image-container img {
+        transform: scale(2.33);
+        top      : 205px;
+        position : relative;
+        width    : 100%;
+    }
+
+    .main-text-container {
+        bottom     : 80px;
+        line-height: 1;
+        width      : 100%;
+    }
+
+    .main-text-container h2 {
+        font-size: 73.1px;
+    }
+
+    .main-text-container p {
+        font-size: 44.97px;
+    }
+
+    .main-text-container img {
+        height: 55px;
+        margin: 10px;
+    }
+
+    .top-nav {
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 0 15px;
+    }
+
+    .nav-item a {
+        font-size: 16px;
+        position : relative;
+    }
+
+    .main-register {
+        padding: 18px 33px;
+    }
+
+    .register-button .main-register {
+        font-size    : 31.16px;
+        border-radius: 10px;
+    }
+
+    .register-button a {
+        font-size: 16px;
+        position : relative;
+    }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+
+    .header {
+        height: 310px;
+    }
+
+    .sunbet-logo {
+        position: relative;
+        height  : 50px;
+        top: -5px;
+        left: -30px;
+    }
+
+    .main-image-container {
+        height: 100%;
+        background-image: url("../images/mobile-landscape-header-image.png");
+        height: 322px;
+        width: 480px;
+    }
+
+    .main-image-container img {
+        display: none;
+        transform: scale(2.33);
+        top      : 60px;
+        position : relative;
+        width    : 100%;
+    }
+
+    .main-text-container {
+        bottom     : 70px;
+        line-height: 1;
+        width      : 100%;
+    }
+
+    .main-text-container h2 {
+        font-size: 42.05px;
+    }
+
+    .main-text-container p {
+        font-size: 23.98px;
+    }
+
+    .main-text-container img {
+        height: 30px;
+    }
+
+    .top-nav {
+        width: 100%;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-item {
+        margin: 0 15px;
+    }
+
+    .nav-item a {
+        font-size: 16px;
+        position : relative;
+    }
+
+    .nav-register a{
+        padding: 8px 13px;
+        position: relative;
+        right: -40px;
+        top: -15px;
+    }
+
+
+    .register-button .main-register {
+        font-size    : 29.57px;
+        border-radius: 10px;
+    }
+
+    .register-button a {
+        font-size: 12px;
+        position : relative;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .header {
+        height: 477px;
+    }
+
+    .sunbet-logo {
+        position: relative;
+        height  : 42px;
+        top: -5px;
+        left: -18px;
+    }
+
+    .main-image-container {
+        background-image: url("../images/mobile-portrait-header-image.png");
+        width: 320px;
+        height: 488px;
+    }
+
+    .main-image-container img {
+        display: none;
+        transform: scale(2.33);
+        top      : 60px;
+        position : relative;
+        width    : 100%;
+    }
+
+    .main-text-container {
+        bottom     : 61px;
+        line-height: 1;
+        width      : 100%;
+    }
+
+    .main-text-container h2 {
+        font-size: 49.17px;
+    }
+
+    .main-text-container p {
+        font-size: 23.98px;
+    }
+
+    .main-text-container img {
+        height: 30px;
+        margin-top: 15px;
+    }
+
+    .top-nav {
+        width: 100%;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-item {
+        margin: 0 15px;
+    }
+
+    .nav-item a {
+        font-size: 16px;
+        position : relative;
+    }
+
+    .nav-register a{
+        padding: 8px 13px;
+        position: relative;
+        right: 7px;
+        top: -10px;
+    }
+
+
+    .register-button .main-register {
+        font-size    : 29.47px;
+        border-radius: 10px;
+    }
+
+    .register-button a {
+        font-size: 12px;
+        position : relative;
+    }
+}
+
+
+
+
+
+
+
+/* @media screen and (min-width: 1024px) and (max-width: 1024.1px) {
+    .header {
+        height: 1300px;
+    }
+
+    .sunbet-logo {
+        position : relative;
+        top      : 25px;
+        transform: scale(1.5);
+    }
+
+    .sunbet-logo-div {
+        margin-left: 65px;
+    }
+
+    .main-image-container {
+        height: 100%;
+    }
+
+    .main-image-container img {
+        transform: scale(1.9);
+        bottom   : -327px;
+        position : relative;
+    }
+
+    .main-text-container {
+        bottom     : 10%;
+        line-height: 1;
+    }
+
+    .main-text-container h2 {
+        font-size: 150px;
+    }
+
+    .main-text-container p {
+        font-size: 90px;
+    }
+
+    .main-text-container img {
+        height: 113px;
+        margin: 10px;
+    }
+
+    .nav-item a {
+        font-size: 32px;
+        top      : 20px;
+        position : relative;
+    }
+
+    .register-button {
+        margin-right: 65px;
+    }
+
+    .register-button .main-register {
+        font-size: 70px;
+        border-radius: 10px;
+    }
+
+    .register-button a {
+        font-size: 32px;
+        position : relative;
+        top      : 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023.5px) {
+
+    .header {
+        height: 1590px;
+    }
+
+    .sunbet-logo {
+        top      : 75px;
+        left     : 85px;
+        transform: scale(2);
+    }
+
+    .sunbet-logo-div {
+        margin-left: 65px;
+    }
+
+    .main-image-container {
+        height: 100%;
+    }
+
+    .main-image-container img {
+        transform: scale(2.2);
+        bottom   : -470px;
+        position : relative;
+    }
+
+    .main-text-container {
+        bottom     : 14%;
+        line-height: 1;
+    }
+
+    .main-text-container h2 {
+        font-size: 180px;
+    }
+
+    .main-text-container p {
+        font-size: 100px;
+    }
+
+    .main-text-container img {
+        height: 120px;
+        margin: 10px;
+    }
+
+    .nav-item a {
+        font-size: 40px;
+        top      : 70px;
+        left     : 55px;
+        position : relative;
+    }
+
+    .register-button .main-register {
+        font-size: 80px;
+        border-radius: 10px;
+    }
+
+    .register-button a {
+        font-size: 50px;
+        position : relative;
+        top      : 60px;
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767.5px) {
+    .header {
+        height: 1130px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .nav-register {
+        position: absolute;
+        right   : 50px;
+        top     : 15px;
+    }
+
+    .register-button a {
+        padding: 30px 45px;
+    }
+
+    .sunbet-logo {
+        top      : 75px;
+        left     : 85px;
+        transform: scale(2.2);
+    }
+
+    .sunbet-logo-div {
+        margin-left: 65px;
+        position   : absolute;
+        left       : 0;
+        top        : 10px;
+    }
+
+    .main-image-container {
+        height: 100%;
+    }
+
+    .main-image-container img {
+        transform: scale(2.2);
+        bottom   : -200px;
+        position : relative;
+    }
+
+    .main-text-container {
+        bottom     : 21%;
+        line-height: 1;
+    }
+
+    .main-text-container h2 {
+        font-size: 170px;
+    }
+
+    .main-text-container p {
+        font-size: 100px;
+    }
+
+    .main-text-container img {
+        height: 120px;
+        margin: 10px;
+    }
+
+    .register-button .main-register {
+        font-size: 120px;
+        padding: 40px 145px;
+        border-radius: 35px;
+    }
+
+    .register-button a {
+        font-size: 50px;
+        position : relative;
+        top      : 60px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479.1px) {
+    
+    body{
+        width: 400%;
+    }
+
+    .header {
+        height: 1800px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .top-nav{
+        width: unset;
+    }
+
+    .nav-register {
+        position: absolute;
+        right   : 50px;
+        top     : 15px;
+    }
+
+    .register-button a {
+        padding: 30px 45px;
+    }
+
+    .sunbet-logo {
+        top      : 75px;
+        left     : 85px;
+        transform: scale(2.2);
+    }
+
+    .sunbet-logo-div {
+        margin-left: 65px;
+        position   : absolute;
+        left       : 0;
+        top        : 10px;
+    }
+
+    .main-image-container {
+        height: 100%;
+    }
+
+    .main-image-container img {
+        transform: scale(3.9);
+        bottom   : -40%;
+        position : relative;
+        width: 100%;
+    }
+
+    .main-text-container {
+        bottom     : 12%;
+        line-height: 1;
+        width: unset;
+    }
+
+    .main-text-container h2 {
+        font-size: 170px;
+    }
+
+    .main-text-container p {
+        font-size: 100px;
+        margin: 20px;
+    }
+
+    .main-text-container img {
+        height: 120px;
+        margin: 30px 0;
+    }
+
+    .register-button .main-register {
+        font-size: 110px;
+        padding: 40px 135px;
+        border-radius: 45px;
+    }
+
+    .register-button a {
+        font-size: 50px;
+        position : relative;
+        top      : 60px;
+    }
+} */
