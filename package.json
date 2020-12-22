@@ -1,10 +1,14 @@
 {
   "name": "sunbet-lucky-numbers",
   "version": "1.0.0",
+  "private": "true",
+  "homepage": "https://markgalante.github.io/sunbet-landing-page",
   "description": "Landing page developed for a front-end development interview",
-  "main": "index.js",
+  "main": "sunbet.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
   "author": "Mark Galante",
   "license": "ISC",
