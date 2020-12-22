@@ -4,7 +4,7 @@
   "private": "true",
   "homepage": "https://markgalante.github.io/sunbet-landing-page",
   "description": "Landing page developed for a front-end development interview",
-  "main": "sunbet.html",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build", 
